@@ -4,14 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
     <link rel="stylesheet" href="app.css" />
-    <title>Q&A Game</title>
 </head>
 <body>
-    <div class="container">
-        <button id="btn-style">Yes</button>
-        <button id="btn-style">No</button>
+
+    <div class="main-generator">
+        <label>
+            <h1>Meme Generator</h1>
+            <h4>Fill out the form to create your memes</h4>
+            <br><br>
+        </label>
+
+        <label>Image URL</label>
+        <input type="url" id="memeLink" placeholder="Enter URL for meme image" name="imgUrl">
+
+        <label>Top Text</label>
+        <input type="search" id="topText" placeholder="(Optional) Enter text on image top">
+
+        <label>Bottom Text</label>
+        <input type="search" id="bottomText" placeholder="(Optional) Enter text on image Bottom">
+    
+        <form action="" id="addMeme">
+            <button id="addMemebtn">Add Meme</button>
+        </form>
     </div>
-    <script src="app.js"></script>
+
+    <script src="script.js"></script>
+  
+    
+
+        <!-- "Test" -->
+
+        <!-- <div class="divImage"> </div>
+
+        <div class="divText">
+            <div>topText</div>
+        </div>  
+        
+        <div class="frameDiv">
+        <img width="300" height="300" src="https://smaller-pictures.appspot.com/images/dreamstime_xxl_65780868_small.jpg">
+        </div>>
+
+        <div class="divTextBt">
+                bottomText
+        </div> -->
+
+
 </body>
 </html>
